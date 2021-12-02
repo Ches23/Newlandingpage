@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+/* top navigation */
+
+nav {
+    background-color: #14279B   ;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_nav {
+    display: flex;
+}
+
+.main_nav li {
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.main_nav li a {
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.main_nav a:hover {
+    color: skyblue;
+}
+
+/* showcase */
+
+.headliner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.photo img {
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+}
+
+.setup1 {
+    background-color: #5C7AEA;
+}
+
+.setup2 {
+    background-color: #5C7AEA;
+}
+
+.showcase button{
+    padding: 20px;
+    border-radius: 8px;
+    border: dashed 1px;
+    margin-top: 26px;
+    font-weight: 600;
+    transition: ease-out 0.5s;
+}
+
+.showcase a {
+    text-decoration: none;
+    color: black;
+}
+
+.showcase button:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
+/* partnership programs */
+
+#work {
+    background-color: #5C7AEA;
+    height: 40vh;
+    padding: 40px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* cards */
+
+.item {
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    margin: auto;
+    align-items: center;
+    gap: 5px;
+    height: 160px;
+}
+
+.work_buttons{
+    margin-top: 42px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+}
+
+
+/* contact us part */
+
+#contact {
+    background-color: #E6E6E6;
+    height: 50vh;
+    padding: 40px;
+}
+
+.contactshell {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.address {
+    line-height: 36px;
+}
+
+.name {
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    width: 192px;
+}
+
+textarea {
+    margin-top: 7px;
+    border-radius: 5px;
+}
+
+.entry .submitform {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    transition: ease-out 0.5s;
+}
+
+.entry .submitform:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.drinks {
+    height: 50vh;
+    padding: 40px;
+}
+
+.baby img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.drinkscontainer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.drinkscontainer > * {
+    flex-basis: 100%;
+}
+
+.footer {
+    background-color: #3D56B2;
+    height: 5vh;
+    padding: 40px;
+}
